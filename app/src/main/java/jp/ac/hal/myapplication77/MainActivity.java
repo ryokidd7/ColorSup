@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void changeActivity(){
         Intent intent = new Intent(MainActivity.this,ImageActivity.class);
-
+    //
         startActivity(intent);
         overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
     }
